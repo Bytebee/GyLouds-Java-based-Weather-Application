@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/menu_current_location">
+
+    <fragment
+        android:id="@+id/menu_current_location"
+        android:name="com.example.weatherapplication.MainMenuFragment"
+        android:label="Current Location" />
+
+    <fragment
+        android:id="@+id/menu_search"
+        android:name="com.example.weatherapplication.SearchMenuFragment"
+        android:label="Search" />
+
+    <fragment
+        android:id="@+id/menu_saved_locations"
+        android:name="com.example.weatherapplication.SavedLocationsFragment"
+        android:label="Saved Locations" />
+</navigation>
